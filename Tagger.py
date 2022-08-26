@@ -21,7 +21,7 @@ anlik_calisan = []
 tekli_calisan = []
 rxyzdev_tagTot = {}
 rxyzdev_initT = {}
-ozel_list = [5574488658]
+ozel_list = [5332817119]
 grup_sayi = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
@@ -32,11 +32,11 @@ async def start(event):
                                               Button.inline("Əʍrlər ❤️‍🩹", data="help")
                       ],
                       [
-                       Button.url('Gruᴩunᴀ ᴇlᴀvᴇ ᴇᴛ', 'https://t.me/LordTaggerBot?startgroup=a'),
-                       Button.url('Rəsʍi ᴋᴀnᴀl 🧖', 'https://t.me/LORD_Resmi')
+                       Button.url('Gruᴩunᴀ ᴇlᴀvᴇ ᴇᴛ', 'https://t.me/LuciTaggerBot?startgroup=a'),
+                       Button.url('Rəsʍi ᴋᴀnᴀl 🧖', 'https://t.me/X_XPERT')
                       ],
                       [
-                       Button.url('Sᴀhiʙ 🦅', 'https://t.me/Rexxuxxnxx')
+                       Button.url('Sᴀhiʙ 🦅', 'https://t.me/Alpha0wner')
                       ],
                     ),
                     link_preview=False)
@@ -60,11 +60,11 @@ async def handler(event):
                                               Button.inline("Əʍrlər ❤️‍🩹" ,data="help")
                       ],
                       [
-                       Button.url('Gruᴩunᴀ ᴇlᴀvᴇ ᴇᴛ', 'https://t.me/LordTaggerBot?startgroup=a'),
-                       Button.url('Rəsʍi ᴋᴀnᴀl 🧖', 'https://t.me/LORD_Resmi')
+                       Button.url('Gruᴩunᴀ ᴇlᴀvᴇ ᴇᴛ', 'https://t.me/LuciTaggerBot?startgroup=a'),
+                       Button.url('Rəsʍi ᴋᴀnᴀl 🧖', 'https://t.me/X_XPERT')
                       ],
                       [
-                       Button.url('Sᴀhiʙ 🦅', 'https://t.me/Rexxuxxnxx')
+                       Button.url('Sᴀhiʙ 🦅', 'https://t.me/Alpha0wner')
                       ],
                     ),
                   link_preview=False)
@@ -708,11 +708,11 @@ async def info(event):
   await event.reply("**Salam Mənim haqqımda və sahibim haqqında məlumat\n\nPython: 1.7.5\nKütüphanem: Telethon\n\nSahibim: @Rexxuxxnxx Gruplarınızda Olan userleri tag etmək üçün yaradılmışam**",
                     buttons=(
                       [
-                       Button.url('Məni qrupa əlavə et 🖤', 'https://t.me/LordTaggerBot?startgroup=a'),
-                       Button.url('Kanal 📣', 'https://t.me/LORD_Resmi')
+                       Button.url('Məni qrupa əlavə et 🖤', 'https://t.me/LuciTaggerBot?startgroup=a'),
+                       Button.url('Kanal 📣', 'https://t.me/X_XPERT')
                       ],
                       [
-                       Button.url('Sahibim 🖥️', 'https://t.me/Rexxuxxnxx')
+                       Button.url('Sahibim 🖥️', 'https://t.me/Alpha0wner')
                       ],
                     ),
                     link_preview=False
