@@ -71,7 +71,7 @@ async def handler(event):
                   
 @client.on(events.NewMessage(pattern="^/luci$"))
 async def help(event):
-  helptext = "Premium Söhbət Qurupları ⚡\n\nƏlaqə -  @Alpha0wner
+  helptext = "Premium Söhbət Qurupları ⚡\n\nƏlaqə -  @Alpha0wner"
   await event.reply(helptext,
                     buttons=(
                       [Button.url(' ζ͜͡ѕтнυ♕︎ #G̯̯̩̙͆ͣ͟e͂̂͝c̨͒ͤ̕͜e̡͝ ̶̶₳v̹̹̘̼̞̻͆ͩ̓ͪ͢ȼıs̨̞̞̰͎͎̪̈́̀ͯ̍ͧͅ', 'https://t.me/LuciTaggerBot')],
