@@ -735,7 +735,7 @@ async def son_durum(event):
     sender = await event.get_sender()
     if sender.id not in ozel_list:
       return
-    await event.respond(f"QOCA Tagger statistikalar 🤖\n\nToplam Grup: {len(grup_sayi)}\nAnlık Xidmət edilən Grup: {len(anlik_calisan)}")
+    await event.respond(f"Luci Tagger bot statistikalar 🤖\n\nToplam Grup: {len(grup_sayi)}\nAnlık Xidmət edilən Grup: {len(anlik_calisan)}")
 
 
 @client.on(events.NewMessage(pattern='^(?i)/dur'))
