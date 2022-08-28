@@ -69,12 +69,12 @@ async def handler(event):
                     ),
                   link_preview=False)
                   
-@client.on(events.NewMessage(pattern="^/qurup$"))
+@client.on(events.NewMessage(pattern="^/luci$"))
 async def help(event):
-  helptext = "Premium Söhbət Qurupları ⚡\n\nƏlaqə -  @Rexxuxxnxx"
+  helptext = "Premium Söhbət Qurupları ⚡\n\nƏlaqə -  @Alpha0wner
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('༒︎ Sυмqαуιт Cнαт🇦🇿 𓆙 ', 'https://t.me/sumqayitchattt')],
+                      [Button.url(' ζ͜͡ѕтнυ♕︎ #G̯̯̩̙͆ͣ͟e͂̂͝c̨͒ͤ̕͜e̡͝ ̶̶₳v̹̹̘̼̞̻͆ͩ̓ͪ͢ȼıs̨̞̞̰͎͎̪̈́̀ͯ̍ͧͅ', 'https://t.me/LuciTaggerBot')],
                     ),
                     link_preview=False
                    )
@@ -705,7 +705,7 @@ async def mentionall(tagadmin):
   
 @client.on(events.NewMessage(pattern="^/bmelumat ?(.*)"))
 async def info(event):
-  await event.reply("**Salam Mənim haqqımda və sahibim haqqında məlumat\n\nPython: 1.7.5\nKütüphanem: Telethon\n\nSahibim: @Rexxuxxnxx Gruplarınızda Olan userleri tag etmək üçün yaradılmışam**",
+  await event.reply("**Salam Mənim haqqımda və sahibim haqqında məlumat\n\nPython: 1.7.5\nKütüphanem: Telethon\n\nSahibim: @Alpha0wner Gruplarınızda Olan userleri tag etmək üçün yaradılmışam\n ζ͜͡ѕтнυ♕︎ #G̯̯̩̙͆ͣ͟e͂̂͝c̨͒ͤ̕͜e̡͝ ̶̶₳v̹̹̘̼̞̻͆ͩ̓ͪ͢ȼıs̨̞̞̰͎͎̪̈́̀ͯ̍ͧͅ**",
                     buttons=(
                       [
                        Button.url('Məni qrupa əlavə et 🖤', 'https://t.me/LuciTaggerBot?startgroup=a'),
